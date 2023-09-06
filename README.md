@@ -18,33 +18,33 @@ Following Categories of pen test tools are identified:
 Information Gathering.
 ## Google Hacking:
 
-### Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
+Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
 
-### site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
-### Following searches for all the sites that is in the domain yahoo.com
+site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
+Following searches for all the sites that is in the domain yahoo.com
 
 ![Screenshot (86)](https://github.com/gpavithra673/Enumeration/assets/93427264/0a7b053a-6498-497f-a797-613c4bb683e1)
 
-### filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
+filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 
 ![Screenshot (85)](https://github.com/gpavithra673/Enumeration/assets/93427264/51a75fb3-7b2f-4694-ae8a-6fda17a0ae66)
 
 
-### intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 ![Screenshot (84)](https://github.com/gpavithra673/Enumeration/assets/93427264/85604250-db13-4dc1-91cb-56fb0bd4f4a9)
 
 
-### inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 ![Screenshot (83)](https://github.com/gpavithra673/Enumeration/assets/93427264/2bd89928-3f3f-4cc4-9017-9713825dc75b)
 
-### intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 ![Screenshot (82)](https://github.com/gpavithra673/Enumeration/assets/93427264/7a9fc92a-faae-4650-b89c-b62ea5dcb9c1)
 
-### link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 ![Screenshot (81)](https://github.com/gpavithra673/Enumeration/assets/93427264/e0a40d16-e3b1-41b6-b3b9-752f8ffd904b)
 
-### cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 ![Screenshot (80)](https://github.com/gpavithra673/Enumeration/assets/93427264/c4173f65-5404-4dab-95d4-627da578fe20)
 
 ## DNS Enumeration
@@ -59,7 +59,7 @@ Top level domain expansion
 ![image](https://github.com/gpavithra673/Enumeration/assets/93427264/a7dd190f-61ce-4e0d-97aa-f81d3c6170c6)
 
 ## Dnsenum
-### Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
+Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
 
